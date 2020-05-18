@@ -1,5 +1,8 @@
+// пример бд: для избежания лишних подключений
+
 class Database {
   constructor(data) {
+    // условие если к бд уже подключились
     if (Database.exists) {
       return Database.instance
     }
