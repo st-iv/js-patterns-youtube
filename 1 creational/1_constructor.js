@@ -1,11 +1,4 @@
-// function Server(name, ip) {
-//   this.name = name
-//   this.ip = ip
-// }
-//
-// Server.prototype.getUrl = function() {
-//   return `https://${this.ip}:80`
-// }
+// для очень похожих действий
 
 class Server {
   constructor(name, ip) {
